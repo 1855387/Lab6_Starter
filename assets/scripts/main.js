@@ -110,4 +110,3 @@ function initFormHandler() {
 	// B12. TODO - Clear the local storage
 	// B13. TODO - Delete the contents of <main>
 }
-//is urs j the same
