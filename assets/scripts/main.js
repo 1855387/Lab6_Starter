@@ -102,9 +102,7 @@ function initFormHandler() {
 	// B11. TODO - Add a click event listener to clear local storage button
     clr.addEventListener('click', function(e){
         e.preventDefault();
-        let recipes = getRecipesFromStorage();
-        recipes = [];
-        saveRecipesToStorage(recipes);
+        localStorage.clear();
         let m = document.querySelector('main');
         m.innerHTML = '';
     });
